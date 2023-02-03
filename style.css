@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_container{
+    width: 630px;
+    margin: 0 auto;
+}
+
+/* .............Navbar............... */
+
+.nv .log, .nv .sg{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* .............Banner........... */
+
+.banner{
+    background-image: url('./ball3.jpg');
+    background-position: center center;
+    object-fit: contain;
+    height: 38vh;
+}
+
+/* .banner img{
+    object-fit: cover;
+    height: 35vh;
+    width: inherit;
+} */
+
+/* .............Tips.............. */
+
+.tips{
+    background-color: #18191e;
+    padding: 30px 0 70px 0;
+}
+
+.tips .game{
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.tips .game .lt{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.tips .game .lt .lg, .tips .game .lt .dt{
+    font-size: 14px;
+}
+
+.tips .game .gm1, .tips .game .gm2{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tips .game .time{
+    font-size: 20px;
+}
+
+.tips .game .tp_btn{
+    background-color: teal;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px 25px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+/* ................Results.............. */
+
+.tp .show{
+    background-color: #18191e;
+    color: #fff;
+    padding: 10px;
+}
+
+/* .............Deposit............. */
+
+.deposit{
+    background-color: #18191e;
+    height: 100vh;
+}
+
+.deposit .amt{
+    height: 26vh;
+    margin: 40px 0 0 0;
+    margin-top: 40px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.deposit .amt h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.deposit .amt .money{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.deposit .amt .btn{
+    margin-top: 35px;
+    background-color: teal;
+    color: #fff;
+}
+
+
+/* ..............Login form.............. */
+
+.login{
+    padding: 40px 0 250px 0;
+    background-color: #18191e;
+}
+
+.login form{
+    margin-top: 40px;
+    padding: 20px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.login form .btn{
+    background-color: teal;
+    color: #fff;
+}
+
+/* ..............Sign up form.............. */
+
+.sign{
+    padding: 40px 0 215px 0;
+    background-color: #18191e;
+}
+
+.sign form{
+    margin-top: 25px;
+    padding: 20px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.sign form .btn{
+    background-color: teal;
+    color: #fff;
+}
+
+/* ............Footer............. */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .slip{
+    padding: 5px 15px;
+    color: #fff;
+    background-color: teal ;
+}
+
+.footer .slip .amount, .footer .slip .at{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer .copy{
+    padding: 10px;
+}
+
+/* ..............Media Queries............. */
+
+@media screen and (max-width: 425px) {
+    html,body {
+        width: 100% !important;
+    }
+
+    .section_container {
+        width: 412px;
+    }
+
+    .tips .game {
+        padding: 8px 10px;
+    }
+
+    .tips .game .gt{
+        font-size: 13px;
+    }
+
+    .tips .game .lt .lg, .tips .game .lt .dt {
+        font-size: 13px;
+    }
+
+    .tips .game .gm1, .tips .game .gm2 {
+        font-size: 14px;
+    }
+
+    .tips .game .tp_btn {
+        margin-left: -24px;
+        padding: 3px 25px;
+    }
+
+    .tp .show .sw{
+        font-size: 14px;
+    }
+
+    .login {
+        padding: 0px 0 240px 0;
+    }
+
+    .sign {
+        padding: 0px 0 215px 0;
+    }
+
+    .footer .slip .amount, .footer .slip .at {
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    html,body {
+        width: 100% !important;
+    }
+
+    .section_container {
+        width: 363px;
+    }
+
+    .tips .game {
+        padding: 8px 10px;
+    }
+
+    .tips .game .gt{
+        font-size: 13px;
+    }
+
+    .tips .game .lt .lg, .tips .game .lt .dt {
+        font-size: 13px;
+    }
+
+    .tips .game .gm1, .tips .game .gm2 {
+        font-size: 14px;
+    }
+
+    .tips .game .tp_btn {
+        margin-left: -24px;
+        padding: 3px 22px;
+    }
+
+    .tp .show .sw{
+        font-size: 14px;
+    }
+
+    .login {
+        padding: 0px 0 240px 0;
+    }
+
+    .sign {
+        padding: 0px 0 215px 0;
+    }
+
+    .footer .slip .amount, .footer .slip .at {
+        font-size: 14px;
+    }
+  }
