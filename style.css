@@ -229,7 +229,7 @@ html,body{
     }
 
     .tips .game .gt{
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .tips .game .lt .lg, .tips .game .lt .dt {
@@ -237,7 +237,7 @@ html,body{
     }
 
     .tips .game .gm1, .tips .game .gm2 {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .tips .game .tp_btn {
