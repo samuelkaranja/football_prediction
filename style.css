@@ -18,7 +18,9 @@ html,body{
 
 .nv .log, .nv .sg{
     color: #fff;
-    text-decoration: underline;
+    background: #00c6ca;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 /* .............Banner........... */
@@ -76,7 +78,7 @@ html,body{
 }
 
 .tips .game .tp_btn{
-    background-color: teal;
+    background-color: #00c6ca;
     border-radius: 50px;
     color: #fff;
     padding: 5px 25px;
@@ -89,7 +91,7 @@ html,body{
 .tp .show{
     background-color: #18191e;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* .............Deposit............. */
@@ -128,7 +130,7 @@ html,body{
 
 .deposit .amt .btn{
     margin-top: 35px;
-    background-color: teal;
+    background-color: #00c6ca;
     color: #fff;
 }
 
@@ -153,7 +155,7 @@ html,body{
 }
 
 .login form .btn{
-    background-color: teal;
+    background-color: #00c6ca;
     color: #fff;
 }
 
@@ -177,7 +179,7 @@ html,body{
 }
 
 .sign form .btn{
-    background-color: teal;
+    background-color: #00c6ca;
     color: #fff;
 }
 
@@ -195,7 +197,7 @@ html,body{
 .footer .slip{
     padding: 5px 15px;
     color: #fff;
-    background-color: teal ;
+    background-color: #00c6ca ;
 }
 
 .footer .slip .amount, .footer .slip .at{
@@ -216,6 +218,10 @@ html,body{
 
     .section_container {
         width: 412px;
+    }
+
+    .banner{
+        height: 32vh;
     }
 
     .tips .game {
@@ -263,6 +269,10 @@ html,body{
 
     .section_container {
         width: 363px;
+    }
+
+    .banner{
+        height: 32vh;
     }
 
     .tips .game {
