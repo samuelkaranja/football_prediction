@@ -280,7 +280,7 @@ html,body{
     }
 
     .tips .game .gt{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .tips .game .lt .lg, .tips .game .lt .dt {
@@ -288,12 +288,12 @@ html,body{
     }
 
     .tips .game .gm1, .tips .game .gm2 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .tips .game .tp_btn {
-        margin-left: -20px;
-        padding: 3px 20px;
+        margin-left: -15px;
+        padding: 3px 17px;
     }
 
     .tp .show .sw{
