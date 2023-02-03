@@ -251,6 +251,11 @@ html,body{
         font-size: 14px;
     }
 
+    .deposit .amt {
+        width: 100%;
+        height: 27vh;
+    }
+
     .login {
         padding: 0px 0 240px 0;
     }
@@ -300,6 +305,11 @@ html,body{
 
     .tp .show .sw{
         font-size: 14px;
+    }
+
+    .deposit .amt {
+        width: 100%;
+        height: 27vh;
     }
 
     .login {
