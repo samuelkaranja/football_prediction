@@ -102,10 +102,12 @@ html,body{
 }
 
 .deposit .amt{
-    height: 26vh;
-    margin: 40px 0 0 0;
+    width: 80%;
+    height: 25vh;
     margin-top: 40px;
-    padding: 15px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
     text-align: center;
     color: #fff;
     background: rgba(255, 255, 255, 0.14);
@@ -117,7 +119,7 @@ html,body{
 }
 
 .deposit .amt h4{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 25px;
 }
@@ -125,7 +127,7 @@ html,body{
 .deposit .amt .money{
     margin-bottom: 10px;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .deposit .amt .btn{
