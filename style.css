@@ -16,11 +16,21 @@ html,body{
 
 /* .............Navbar............... */
 
+.bg-dark {
+    padding: 3px 10px !important;
+}
+
 .nv .log, .nv .sg{
     color: #fff;
     background: #00c6ca;
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+.nv img{
+    width: 160px; 
+    height: 73px; 
+    object-fit: cover;
 }
 
 /* .............Banner........... */
