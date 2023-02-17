@@ -232,6 +232,10 @@ html,body{
         width: 410px;
     }
 
+    .nv img {
+        margin-left: -20px;
+    }
+
     .banner{
         height: 32vh;
     }
@@ -286,6 +290,10 @@ html,body{
 
     .section_container {
         width: 361px;
+    }
+
+    .nv img {
+        margin-left: -20px;
     }
 
     .banner{
