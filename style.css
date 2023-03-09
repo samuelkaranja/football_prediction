@@ -35,18 +35,11 @@ html,body{
 
 /* .............Banner........... */
 
-.banner{
-    background-image: url('./ball3.jpg');
-    background-position: center center;
-    object-fit: contain;
-    height: 38vh;
-}
-
-/* .banner img{
+.banner img{
     object-fit: cover;
-    height: 35vh;
+    height: 38vh;
     width: inherit;
-} */
+}
 
 /* .............Tips.............. */
 
@@ -75,7 +68,7 @@ html,body{
 }
 
 .tips .game .lt .lg, .tips .game .lt .dt{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .tips .game .gm1, .tips .game .gm2{
@@ -233,11 +226,13 @@ html,body{
     }
 
     .nv img {
-        margin-left: -20px;
+        margin-left: -30px;
+        width: 155px;
+        height: 70px;
     }
 
-    .banner{
-        height: 32vh;
+    .banner img {
+        height: 34vh;
     }
 
     .tips .game {
@@ -293,11 +288,9 @@ html,body{
     }
 
     .nv img {
-        margin-left: -20px;
-    }
-
-    .banner{
-        height: 32vh;
+        margin-left: -30px;
+        width: 155px;
+        height: 70px;
     }
 
     .tips .game {
